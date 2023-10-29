@@ -28,24 +28,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  
-   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <img src="https://github.com/jflengkong/belly-button-challenge/blob/main/images/bacteria.png">
 
   <h1 align="center"> 🦠# belly-button-challenge 🦠</h1>
 
   <p align="center">
     UWA Week 14 Challenge
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="http://robdunnlab.com/projects/belly-button-biodiversity"><strong>Explore the .JSON Document»</strong></a>
     <br />
     <br />
+    <!--
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    --> 
   </p>
 </div>
 
@@ -82,24 +81,49 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![[Belly Button Dashboard](https://example.com)
-
 In this assignment, we are required to build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogues the microbes that colonise human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare. 
 
-<b>The dashboard will include the following parts: </b> 
+### Documents 
 
-<a href="#part-1"> Part 1:</a> Horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+Description of documents included in this repository:
 
-<a href="#part-2"> Part 2:</a> A bubble chart that displays each sample.
-
-<a href="#part-3"> Part 3:</a> Individual's demographic information metadata.
-
-<a href="#bonus-part"> Part 4:</a> Bonus gauge for Belly Button washing frequency. 🛁 
-
+1. `static folder` : includes the completed [`app.json`](https://github.com/jflengkong/belly-button-challenge/blob/main/static/js/app.js)
+2. `images folder` : Screenshots of completed [`index.html`](https://github.com/jflengkong/belly-button-challenge/blob/main/index.html)
+3. url used for reading `samples.json` fle 
+   ```sh
+   https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
+   ```
+<!--
+4. Install NPM packages
+   ```sh
+   npm install
+   ```
+5. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+--> 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<div align="center">
+<b> <h2> The dashboard will include the following parts: </h2> </b> 
+
+<a href="#part-1"> <b> Part 1:</b> </a> Horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+
+<a href="#part-2"><b> Part 2:</b></a> A bubble chart that displays each sample.
+
+<a href="#part-3"> <b>Part 3:</b></a> Individual's demographic information metadata.
+
+<a href="#bonus-part"><b> Part 4:</b></a> Bonus gauge for Belly Button washing frequency. 🛁 
+
+![[Belly Button Dashboard](https://example.com]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
 
 ### Built With 
 
@@ -135,30 +159,6 @@ This is an example of how to list things you need to use the software and how to
   ```
 --> 
 
-### Documents 
-
-Description of documents included in this repository:
-
-1. `static folder` : includes the completed [`app.json`](https://github.com/jflengkong/belly-button-challenge/blob/main/static/js/app.js)
-2. `images folder` : Screenshots of completed [`index.html`](https://github.com/jflengkong/belly-button-challenge/blob/main/index.html)
-3. url used for reading `samples.json` fle 
-   ```sh
-   https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
-   ```
-<!--
-4. Install NPM packages
-   ```sh
-   npm install
-   ```
-5. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
---> 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Part 1: Horizontal Bar Chart
 <b> Instructions: </b> Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
@@ -171,7 +171,7 @@ Description of documents included in this repository:
 
 Using the plotly, .js function and slice functions we were able to display the top 10 OTUs found in an individual. A dropdown button will be presented later in the further parts completed. 
 
-![horizontal-plot]() 
+![horizontal-plot](https://github.com/jflengkong/belly-button-challenge/blob/main/images/horizontal-plot.gif) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +193,7 @@ Using the plotly, .js function and slice functions we were able to display the t
 
 Using the documentation from [Plotly: Bubble Charts ](https://plotly.com/javascript/bubble-charts/), we were able to use the following values and plot a bubble chart for each sample. 
 
-![bubble-chart]() 
+![bubble-chart](https://github.com/jflengkong/belly-button-challenge/blob/main/images/bubble-chart.gif) 
 
 ## Part 3: Metadata 
 <b> Instructions: </b> Display the sample metadata, i.e., an individual's demographic information:
@@ -284,6 +284,9 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 [7] othneildrew GitHub - [ReadME Template](https://github.com/othneildrew/Best-README-Template#built-with)
 
+[plotly.js]:https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
+[plotlyjs-url]: https://plotly.com/javascript/
+
 <!--
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -313,8 +316,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[plotly.js]:https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
-[plotlyjs-url]: https://plotly.com/javascript/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
