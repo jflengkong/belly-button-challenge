@@ -35,7 +35,7 @@
   <p align="center">
     UWA Week 14 Challenge
     <br />
-    <a href="http://robdunnlab.com/projects/belly-button-biodiversity"><strong>Explore the .JSON Document»</strong></a>
+    <a href="https://jflengkong.github.io/belly-button-challenge/"><strong>Resulting Document»</strong></a>
     <br />
     <br />
     <!--
