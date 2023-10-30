@@ -166,6 +166,5 @@ d3.json(url).then(function(data) {
 
     // Initially, create the bubble chart and other data to display with the first ID as default
     optionChanged(0)
-    makeBubbleChart(0);
     }
 );
