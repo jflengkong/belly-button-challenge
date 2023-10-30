@@ -35,7 +35,7 @@
   <p align="center">
     UWA Week 14 Challenge
     <br />
-    <a href="https://jflengkong.github.io/belly-button-challenge/"><strong>Resulting Document»</strong></a>
+    <a href="https://jflengkong.github.io/belly-button-challenge/"><strong>Belly Button Biodiversity Dashboard Result»</strong></a>
     <br />
     <br />
     <!--
