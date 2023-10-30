@@ -146,6 +146,7 @@ d3.json(url).then(function(data) {
         makeBarChart(selectedID);
         makeMetadata(selectedID, metadata);
         makeGaugeBar(selectedID);
+        makeBubbleChart(selectedID);
     }
 
     // Create a dropdown with options
