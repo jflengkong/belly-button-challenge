@@ -35,7 +35,7 @@
   <p align="center">
     UWA Week 14 Challenge
     <br />
-    <a href="http://robdunnlab.com/projects/belly-button-biodiversity"><strong>Explore the .JSON Document»</strong></a>
+    <a href="https://jflengkong.github.io/belly-button-challenge/"><strong>Belly Button Biodiversity Dashboard Result»</strong></a>
     <br />
     <br />
     <!--
@@ -85,13 +85,13 @@ In this assignment, we are required to build an interactive dashboard to explore
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare. 
 
-### Documents 
+## Documents 
 
 Description of documents included in this repository:
 
 1. `static folder` : includes the completed [`app.json`](https://github.com/jflengkong/belly-button-challenge/blob/main/static/js/app.js)
 2. `images folder` : Screenshots of completed [`index.html`](https://github.com/jflengkong/belly-button-challenge/blob/main/index.html)
-3. url used for reading `samples.json` fle 
+3. url used for reading `samples.json` file 
    ```sh
    https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
    ```
@@ -120,7 +120,7 @@ Description of documents included in this repository:
 
 <a href="#bonus-part"><b> Part 4:</b></a> Bonus gauge for Belly Button washing frequency. 🛁 
 
-![[Belly Button Dashboard](https://example.com]()
+![Belly Button Dashboard](https://github.com/jflengkong/belly-button-challenge/blob/main/images/dashboard-complete.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </div>
@@ -169,7 +169,7 @@ This is an example of how to list things you need to use the software and how to
 
 - Use `otu_labels` as the hovertext for the chart.
 
-Using the plotly, .js function and slice functions we were able to display the top 10 OTUs found in an individual. A dropdown button will be presented later in the further parts completed. 
+Using the Plotly.js we were able to display the Top 10 OTUs found in each individual. A dropdown button will be presented later in the further parts completed. 
 
 ![horizontal-plot](https://github.com/jflengkong/belly-button-challenge/blob/main/images/horizontal-plot.gif) 
 
@@ -206,17 +206,26 @@ Using the documentation from [Plotly: Bubble Charts ](https://plotly.com/javascr
 
 Using the metadata we were able to also append the [index.html](https://github.com/jflengkong/belly-button-challenge/blob/main/index.html) code as required to add the information required to be printed in the dashboard according to values presented in each sample acquired from the .json url. 
 
+![metadata-results](https://github.com/jflengkong/belly-button-challenge/blob/main/images/metadata-results%20.gif)
+
 ## Bonus Part: Washing Frequency Gauge  
 <b> Instructions: </b> Adapt the Gauge Chart from [https://plot.ly/javascript/gauge-charts/](https://plot.ly/javascript/gauge-charts/) to plot the weekly washing frequency of the individual. 
 
-<b> Results required: </b> 
+<div align="center">
+<b> <h2> Results required: </h2> </b> 
 
-![gauge required]() 
+![gauge required](https://github.com/jflengkong/belly-button-challenge/blob/main/images/belly-button-gauge.jpg) 
 
-<b> Result gained </b> 
-![gauge-acquired]() 
+</div> 
+
+<div align="center">
+    
+<b> <h2>  Result gained </h2> </b> 
+![gauge-acquired](https://github.com/jflengkong/belly-button-challenge/blob/main/images/gauge-got.png) 
+
 There were advanced methods to include the needle gauge, and I was unable to complete the gauge meter labels inside the gauge where required. Further work and analysis of the documentation will be required in the future to adapt this gauge to its most functional basis. Attempts were made to create and "draw" a needle and change the position through html, however there were not able to create the same results as required. Overall, a fun attempt for the bonus part. 
 
+</div> 
 <!--
 - [x] Add Changelog
 - [x] Add back to top links
@@ -263,7 +272,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Jesslyn Lengkong - [Linked In](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/jflengkong/belly-button-challenge/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
